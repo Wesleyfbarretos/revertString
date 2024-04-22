@@ -8,5 +8,6 @@ func Revert(s string) string {
 		b[i], b[j] = b[j], b[i]
 	}
 	fmt.Println("teste")
+	fmt.Println("testingv5")
 	return string(b)
 }
